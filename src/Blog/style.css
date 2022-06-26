@@ -1,0 +1,183 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 8rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(190, 190, 184);
+    color: white;
+}
+.link-icon{
+    color: white;
+    font-size: 3rem;
+    transition: 0.7s;
+}
+.link-icon:hover{
+    color: black;
+    transform: rotate(360deg);
+}
+.link{
+    font-size: 1.3rem;
+    font-weight: 300;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.list-items{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+.link:hover{
+    text-shadow: 0px 0px 9px black;
+}
+.form-con{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    position: relative;
+}
+.input-sec{
+    width: 21rem;
+    min-height: 35rem;
+    height: max-content;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1.1rem;
+    gap: 2rem;
+}
+.input{
+    width: 80%;
+    height: 3rem;
+    outline: none;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+    border: 1px solid rgb(190, 190, 184);
+    caret-color: rgb(190, 190, 184);
+}
+.input::placeholder{
+    color: lightgrey;
+    font-weight: 200;
+    
+}
+.text{
+    height: 10rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.submit{
+    width: 80%;
+    height: 2rem;
+    font-size: 1.3rem;
+    background-color: rgb(190, 190, 184);
+    color: white;
+    border-radius: 0.6rem;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: black;
+}
+.body-con{
+    height: 80vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blogs-con{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    gap: 2rem;
+    gap: 1rem;
+    padding: 1.3rem 1rem;
+}
+.blog-demo-con{
+    min-width: 20rem;
+    width: max-content;
+    padding: 1rem 1rem;
+    min-height: 8rem;
+    height: max-content;
+    border: 1px solid rgb(190, 190, 184);
+    position: relative;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+    gap: 1rem;
+
+}
+.blog-demo-head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.blog-demo-head h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+.blog-demo-con p{
+    font-size: 0.8rem;
+    color: darkgrey;
+    font-weight: 300;
+}
+.blog-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 4rem;
+    gap: 1.8rem;
+    width: 100%;
+    height: 80vh;
+    overflow-x: hidden;
+}
+.blog-page h3{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.blog-page p{
+    color: darkgrey;
+    font-weight: 300;
+    font-size: 0.9rem;
+    width: 10rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog-page h4{
+    color: black;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.circle1{
+    position: absolute;
+    top: 15rem;
+    right: -2rem;
+    height: 15rem;
+    width: 15rem;
+    background: linear-gradient(rgb(180,160,170), rgb(190,160,176));
+    border-radius: 50%;
+}
